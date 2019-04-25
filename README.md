@@ -1,0 +1,4 @@
+# Projet Stellar Isen
+
+Qu’il s’agisse des équipiers français envoyés dans l’ISS ou du 40e anniversaire de l’alunissage, la vulgarisation scientifique autour de l’astronomie et de la conquête spatiale n’ont jamais été autant au goût du jour. Suivant ce courant, l’objectif de ce projet est de réaliser un site web d’encyclopédie spatiale.
+La finalité du projet est de concevoir un site web permettant de répertorier les astres stellaires, leurs informations physiques (période de révolution, trajectoire, ...) et leur description globale. Ces informations devront être accessibles de manière ludique et agréable. Le projet n’a pas seulement pour but de répertorier ces informations mais de réellement rentrer dans une démarche de vulgarisation qui donne envie à tout un chacun de développer sa culture générale sur l’astronomie, l’espace et même l’astrophysique.

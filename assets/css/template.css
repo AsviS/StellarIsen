@@ -1,0 +1,291 @@
+body,html{
+  margin: 0;
+   overflow: hidden;
+  width: 100%;
+
+   height: 100%;
+
+}
+
+#logo{
+
+  z-index:20000;
+  position: absolute;
+
+}
+#logo img{
+  width: 20%;
+  margin-left: 5%;
+  margin-top: 3%;
+  opacity: 0.5;
+}
+
+#box{
+  position:  absolute;
+  z-index: 100;
+  width:100%;
+  height: 100%;
+  margin:0;
+}
+
+
+#informations{
+
+  display:inline-block;
+  max-width: 30%;
+
+  word-wrap: break-word;
+}
+
+#picture{
+   width: 100%;
+
+   margin-top: 5%;
+   padding-right: 5%;
+
+}
+
+#add_tags{
+  position: relative;
+  z-index: 10000;
+}
+
+#add_tags .form-inline{
+z-index: 2000;
+
+  text-align: center;
+}
+
+
+
+
+#picture img{
+  width:25%;
+}
+
+#UIButtons{
+position:fixed;
+bottom:30;
+right: 40;
+z-index:10000;
+
+}
+
+#UIButtons i{
+  cursor: pointer;
+}
+
+#login_form{
+  width:50%;
+  z-index:10;
+
+}
+
+#login_form  img{
+  width:50%;
+  margin-bottom:5%;
+
+}
+#register_form  img{
+  width:50%;
+  margin-bottom:5%;
+
+}
+
+#bg_bookmarks{
+  background-color: rgba(245, 245, 245, 0.4);
+
+
+}
+
+#bookmarks {
+  display: flex;
+   text-align: center;
+    justify-content: center;
+     align-items: center;
+     height: 100vh
+
+}
+
+
+#bookmarks .row{
+  margin-bottom: 1%;
+
+
+}
+
+
+
+#login_div{
+  position: relative;
+  z-index: 10;
+  width:100%;
+  height: 100%;
+}
+
+#wrapper
+{
+  z-index:1;
+
+}
+#basic-addon2{
+  border-radius: 50%;
+  display: flex;
+  margin-top: -20%;
+  margin-left: -8%;
+  z-index: 200;
+  background-color: grey;
+}
+
+#hideSearchbar{
+  position: absolute;
+  width: 10%;
+  margin-top: -124px;
+  border-radius: 10px 10px 0px 0px;
+  z-index: 30000;
+}
+
+#btn_searchbar{
+  position: fixed;
+  top:0;
+  margin-left: 50%;
+  width: 10%;
+  border-radius: 0px 0px 10px 10px;
+  z-index: 30000;
+  text-align: center;
+}
+
+#searchbar{
+  display: flex;
+   text-align: center;
+    justify-content: center;
+     align-items: center;
+     height: 100vh
+}
+
+#searchbar .input-group{
+  width:50%;
+  border-radius: 100px;
+}
+
+
+#btn_searchbar i{
+  cursor: pointer;
+}
+
+
+#hideSearchbar i{
+  cursor: pointer;
+}
+
+
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
+
+
+
+@media (max-width: 640px) {
+	* {
+		box-sizing: border-box;
+	}
+
+	/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+  #mobile{
+    display: block;
+  }
+
+	/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+
+
+
+	/* conserver le ratio des images */
+
+	img {
+		height: auto;
+	}
+
+	/* gestion des mots longs */
+
+
+	/* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+
+
+	/* masquer les éléments superflus */
+
+	.hide_mobile {
+		display: none !important;
+	}
+
+  .show_mobile {
+		display:inline-flex !important;
+  }
+
+  #informations{
+
+    display:inline-block;
+    max-width: 80%;
+    margin-right: 5%;
+    max-height: 75%;
+    overflow: scroll;
+
+    word-wrap: break-word;
+  }
+
+
+  #login_form{
+    width:70%;
+    z-index:10;
+
+  }
+
+  #login_form  img{
+    width:50%;
+    margin-bottom:3%;
+
+  }
+
+  #btn_searchbar{
+    position: fixed;
+    top:0;
+    margin-left: 40%;
+    width: 30%;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 30000;
+    text-align: center;
+  }
+
+  #searchbar .input-group{
+    width:80%;
+    border-radius: 100px;
+  }
+
+  #UIButtons{
+  position:fixed;
+  bottom: 30;
+
+  left:25%;
+  right: 25%;
+
+  z-index:10000;
+
+  }
+
+  #UIButtons i{
+    cursor: pointer;
+  }
+
+
+
+
+}

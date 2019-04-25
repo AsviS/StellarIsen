@@ -1,0 +1,16 @@
+<div class="container" id="login_div" style="display: flex; text-align: center; justify-content: center; align-items: center; height: 100vh">
+  <form id="login_form" action="javascript:void(0);">
+    <img src="assets/images/logo.png" alt="Logo Stellar Isen" />
+    <div class="alert"></div>
+    <div class="form-group">
+      <input type="text" class="text-center form-control form-control-lg" name="username" id="username" placeholder="Nom d’utilisateur" required>
+    </div>
+    <div class="form-group">
+      <input type="password" style="z-index: 1000" class="text-center form-control form-control-lg" name="password" id="password" placeholder="Mot de passe" required>
+    </div>
+    <div class="form-group ">
+      <small id="noAccount" class=" text-white"><a href="#" class="text-white" onclick="displayRegister()"> Pas de compte ?</a></small><br>
+      <button id="submit" type="submit" class="row btn btn-lg btn-primary" onclick="login()">Se connecter</button>
+    </div>
+  </form>
+</div>
